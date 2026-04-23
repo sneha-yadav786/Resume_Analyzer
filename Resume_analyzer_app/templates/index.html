@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    .Button {
+        border: 2px solid green;
+        border-radius: 2px;
+        margin-left: 20px;
+    }
+
+    button:hover {
+        background-color: green;
+    }
+    
+    .description {
+
+        color: rgb(252, 229, 233);
+        margin-bottom: 20px;
+        font-style: italic;
+        font-size: smaller;
+    }
+   
+</style>
+
+<body>
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+
+            <h1>Upload Your Resume</h1>
+            <div class="description">
+                <p>A smart resume analyzer that evaluates your profile against your desired role, providing match
+                    percentage,
+                    skill gaps, and personalized feedback.</p>
+            </div>
+
+            <form action="/upload" method="post" enctype="multipart/form-data"><br><br>
+                <input type="file" name="resume" accept=".pdf" required>
+
+                <select name="role" required>
+                  <option value="">Select Role</option>
+                  <option value="data scientist">Data Scientist</option>
+                  <option value="web developer">Web Developer</option>
+                  <option value="backend developer">Backend Developer</option>
+                  <option value="frontend developer">Frontend Developer</option>
+                  <option value="ai engineer">AI Engineer</option>
+                  <option value="cyber security engineer">Cyber Security</option>
+                  <option value="cloud engineer">Cloud Engineer</option>
+                  <option value="machine learning engineer">Machine learning Engineer</option>
+                  <option value="full stack developer">Full Stack Developer</option>
+                  <option value="devops engineer">Devops Engineer</option>
+                  <option value="software engineer">Software Engineer</option>
+                  <option value="data analyst">Data Analyst</option>
+                  <option value="blockchain developer">Blockchain Developer</option>
+                  <option value="qa engineer">QA Engineer</option>
+                  <option value="game developer">Game Developer</option>
+                  <option value="ui/ux designer">UI/UX</option>
+                </select>
+
+                <button class="Button" type="submit">Analyze</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

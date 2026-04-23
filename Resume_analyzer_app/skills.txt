@@ -1,0 +1,56 @@
+# programming
+python
+java
+c++
+javascript
+git
+github
+typescript
+# backend
+flask
+django
+nodejs
+# frontend
+react
+angular
+nextjs
+redux
+# devops
+docker
+kubernetes
+jenkins
+# cloud
+aws
+gcp
+azure
+# ml
+tensorflow
+pytorch
+scikit-learn
+#ai
+langChain
+pinecone
+#other
+restapis
+graphql
+microservices
+cloudinaryapi
+cloudinary
+#db
+redis
+mongodb
+postgresql
+mysql
+bullmq
+postman
+#tools
+vercel
+render
+vscode
+#cyber security
+network security
+ethical hacking
+penetration testing
+encryption
+firewalls
+linux

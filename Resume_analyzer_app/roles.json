@@ -1,0 +1,130 @@
+{
+  "data scientist": [
+    "python", "pandas", "numpy", "matplotlib", "seaborn",
+    "machine learning", "deep learning", "tensorflow", "pytorch",
+    "statistics", "data visualization", "feature engineering"
+  ],
+
+  "data analyst": [
+    "python", "sql", "excel", "pandas", "numpy",
+    "data visualization", "power bi", "tableau",
+    "statistics", "data cleaning"
+  ],
+
+  "web developer": [
+    "html", "css", "javascript", "react",
+    "nodejs", "express", "mongodb",
+    "git", "rest api"
+  ],
+
+  "frontend developer": [
+    "html", "css", "javascript",
+    "react", "nextjs", "vue",
+    "tailwind css", "bootstrap"
+  ],
+
+  "backend developer": [
+    "python", "java", "nodejs",
+    "django", "flask", "spring boot",
+    "mysql", "mongodb",
+    "rest api", "graphql"
+  ],
+
+  "full stack developer": [
+    "html", "css", "javascript",
+    "react", "nodejs", "express",
+    "mongodb", "mysql",
+    "git", "rest api"
+  ],
+
+  "machine learning engineer": [
+    "python", "scikit-learn",
+    "tensorflow", "pytorch",
+    "machine learning", "deep learning",
+    "feature engineering", "model deployment"
+  ],
+
+  "ai engineer": [
+    "python", "tensorflow", "pytorch",
+    "deep learning", "nlp",
+    "computer vision", "transformers"
+  ],
+
+  "cloud engineer": [
+    "aws", "azure", "gcp",
+    "docker", "kubernetes",
+    "linux", "networking",
+    "ci/cd"
+  ],
+
+  "devops engineer": [
+    "docker", "kubernetes",
+    "jenkins", "github actions",
+    "ci/cd", "linux",
+    "monitoring", "prometheus", "grafana"
+  ],
+
+  "software engineer": [
+    "python", "java", "c++",
+    "data structures", "algorithms",
+    "oop", "system design",
+    "git"
+  ],
+
+  "software developer": [
+    "python", "java", "c++",
+    "data structures", "algorithms",
+    "oop", "system design",
+    "git"
+  ],
+
+  "android developer": [
+    "java", "kotlin",
+    "android sdk",
+    "firebase",
+    "rest api"
+  ],
+
+  "ios developer": [
+    "swift", "ios sdk",
+    "xcode",
+    "rest api"
+  ],
+
+  "cyber security engineer": [
+    "network security",
+    "ethical hacking",
+    "penetration testing",
+    "encryption",
+    "firewalls",
+    "linux"
+  ],
+
+  "blockchain developer": [
+    "solidity", "ethereum",
+    "smart contracts",
+    "web3.js",
+    "cryptography"
+  ],
+
+ 
+
+  "qa engineer": [
+    "selenium", "pytest",
+    "unit testing", "integration testing",
+    "api testing",
+    "postman"
+  ],
+
+  "game developer": [
+    "c++", "c#", "unity",
+    "unreal engine",
+    "game physics"
+  ],
+
+  "ui/ux designer": [
+    "figma", "adobe xd",
+    "wireframing", "prototyping",
+    "user research"
+  ]
+}

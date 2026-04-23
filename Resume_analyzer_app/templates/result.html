@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analyzer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f6f8;
+            padding: 20px;
+            background-color: black;
+            
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+           
+        }
+
+        .card {
+            color: white;
+            background:black;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .card:hover{
+            border: 1px solid white;
+        }
+
+        .score {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .lastbutton{
+            background-color: skyblue;
+            font-size:medium;
+            color: black;
+            border: 2px solid blue;
+            border-radius: 5px;
+        }
+        .lastbutton:hover{
+            opacity: 0.8;
+        }
+       
+
+        
+
+        .tag {
+            display: inline-block;
+            background: #e0f7fa;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            color: black;
+        }
+
+        .missing {
+            background: #ffe0e0;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Role: {{ role }}</h2>
+
+        <div class="score 
+        {% if score >= 80 %}green
+        {% elif score >= 50 %}orange
+        {% else %}red
+        {% endif %}
+        ">
+       
+        Score: {{ score }}/100
+        </div>
+
+        <p><b>{{ feedback }}</b></p>
+    </div>
+
+    
+
+    <div class="card">
+        <h3>Matched Skills</h3>
+        {% for skill in matched_skills %}
+            <span class="tag">{{ skill }}</span>
+        {% endfor %}
+    </div>
+
+    <div class="card">
+        <h3>Missing Skills</h3>
+        {% for skill in missing_skills %}
+            <span class="tag missing">{{ skill }}</span>
+        {% endfor %}
+    </div>
+
+   
+
+    <a href="/"><button class="lastbutton"> 👉 Analyze Another Resume</button></a>
+
+</div>
+
+
+
+</body>
+</html>
