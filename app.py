@@ -7,6 +7,7 @@ ALLOWED_EXTENSIONS = {'pdf'}
 
 
 app = Flask(__name__)
+os.makedirs("uploads", exist_ok=True)
 
 UPLOAD_FOLDER = 'uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
