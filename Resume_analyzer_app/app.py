@@ -63,7 +63,6 @@ def extract_skills_from_dataset(text):
         # better matching (avoid partial match like sql in mysql)
         if f" {skill} " in f" {text} ":
             found_skills.append(skill)
-
     return found_skills
 
 
